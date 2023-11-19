@@ -16,7 +16,7 @@ async function getUserData(user, gamemode) {
   }
 }
 
-router.get("/:user/infos/total", async (req, res) => {
+router.get("/:user/infos/total", async (req, res) => { 
   try {
     const { user } = req.params;
     const userData = await getUserDataForAllGamemodes(user);
