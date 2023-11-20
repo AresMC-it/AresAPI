@@ -11,10 +11,22 @@ module.exports = {
         password: '',
         database: 'practice'
     },
+    hub: {
+        host: 'localhost',
+        user: 'root',
+        password: '',
+        database: 'hub'
+    },
     luckperms: {
         host: 'localhost',
         user: 'root',
         password: '',
         database: 'luckperms'
+    },
+    litebans: {
+        host: 'localhost',
+        user: 'root',
+        password: '',
+        database: 'litebans'
     },
 };
